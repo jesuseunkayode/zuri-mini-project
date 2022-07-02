@@ -1,0 +1,1 @@
+Zuri mini project completed by me without rewatching the training again.
