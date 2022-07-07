@@ -22,9 +22,22 @@ section {
 
 p {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    
 }
 
+
+button {
+     max-width: 10%;
+     height: 2rem;
+     cursor: pointer;
+}
+
+#see-details {
+    display: block;
+     margin: 0 auto;
+     max-width: 10%;
+}
 
 footer {
      position: absolute;
@@ -34,5 +47,5 @@ footer {
      width: 100%;
      text-align: center;
      color:antiquewhite;
-     line-height: 25px;
+     line-height: 15px;
 }
