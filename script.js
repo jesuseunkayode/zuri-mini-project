@@ -1,5 +1,5 @@
 let userName = prompt("Enter your username: ");
-function validateUserName(userName) {
+const validateUserName = userName => {
   if (userName.length < 10 && userName.length > 0) {
     return true;
   } else {
@@ -8,7 +8,7 @@ function validateUserName(userName) {
 }
 
 let email = prompt("Enter your email address");
-function validateEmail(email) {
+const validateEmail = email => {
   const emailCheck =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   let emailCheckResult = emailCheck.test(email);
